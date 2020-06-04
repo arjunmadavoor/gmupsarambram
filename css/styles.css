@@ -34,17 +34,25 @@ q{
 }
 /* NAVBAR SECTION STYLES */
 
-.navbar{
-  padding-bottom: 3em
+.navbar {
+  min-height: 80px;
 }
+
 
 .nav-item {
   margin-right: 50px;
   text-align: left;
+  font-size: 20px;
 }
 
 .navbar-brand{
-  margin-left: 20px;
+  padding: 38px 12px;
+line-height: 80px;
+}
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
 }
 
 
@@ -60,7 +68,7 @@ q{
   font-family: 'Ubuntu', sans-serif;
   color: #000;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .sub-head {
@@ -204,7 +212,7 @@ h3{
   text-align: center;
   padding-bottom: 50px;
 }
-@media (max-width:975px) {
+@media (max-width:993px) {
   .school-img {
     width: 75%
   }
@@ -221,7 +229,28 @@ h3{
     padding: 100px 5% 100px 5%;
   }
 
-  .navbar{
-    padding-bottom: 3em
+  .navbar-brand{
+    height: 80px;
   }
+  .nav-item {
+    font-size: 25px;
+  }
+
+  .main-head {
+    padding-top: 150px;
+  }
+
+  q{
+    font-size: 60px;
+  }
+}
+
+
+/* USED TO INCREASE THE NAVBAR SIZE IN MOBILE VIEW(CODE TAKEN FROM GOOGLE) */
+
+.navbar-nav > li > a {
+  /* (80px - line-height of 27px) / 2 = 26.5px */
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  line-height: 27px;
 }
