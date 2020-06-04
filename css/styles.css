@@ -34,13 +34,17 @@ q{
 }
 /* NAVBAR SECTION STYLES */
 
+.navbar{
+  padding-bottom: 3em
+}
+
 .nav-item {
   margin-right: 50px;
   text-align: left;
 }
 
 .navbar-brand{
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 
@@ -215,5 +219,9 @@ h3{
 
   .video-section{
     padding: 100px 5% 100px 5%;
+  }
+
+  .navbar{
+    padding-bottom: 3em
   }
 }
