@@ -1,0 +1,181 @@
+body{
+text-align: center;
+}
+
+.main-body{
+  text-align: center;
+}
+
+.section-head{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+q{
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  text-align: justify;
+}
+.about-para{
+  text-align: center;
+  text-align: justify;
+}
+/* NAVBAR SECTION STYLES */
+
+.nav-item {
+  margin-right: 50px;
+  text-align: left;
+}
+
+.navbar-brand{
+  margin-left: 10px;
+}
+
+
+/* HOME PAGE STYLES */
+
+#home-page{
+  padding: 50px 7% 100px 7%;
+}
+
+.main-head {
+  font-size: 480%;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  color: #000;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sub-head {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.school-img {
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ONLINE CLASS PAGE STYLES */
+
+#class-page{
+  padding: 100px 7% 100px 7%;
+}
+
+.row-one, .row-two {
+  display: block;
+  height: 200px;
+  padding-top: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 6px solid #000;
+  color: #000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+.row-one {
+  background-color: #cceabb;
+}
+.row-one:hover {
+  background-color: #a8df65;
+  text-decoration: none;
+  color: #fff;
+}
+
+.row-two {
+  background-color: #fdcb9e;
+}
+
+.row-two:hover {
+  background-color: #ff9a76;
+  text-decoration: none;
+  color: #fff;
+}
+
+.items{
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* ABOUT SECTION STYLES */
+
+#about{
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.hm-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about-row{
+  padding: 10px 8.3% 10px 8.3%;
+}
+
+
+/* CONTACT SECTION STYLE */
+
+#contacts{
+  padding-top: 100px;
+}
+
+.footer{
+  width: 100%;
+  height: 450px;
+  background-color: #222831;
+}
+
+
+/* VIDEOS PAGE STYLES AND OPTIONS */
+
+h3{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.video-section{
+  padding: 100px 20% 100px 20%;
+}
+
+.videos{
+  text-align: center;
+}
+.std-head{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+@media (max-width:975px) {
+  .school-img {
+    width: 75%
+  }
+
+  .main-head {
+    font-size: 400%;
+  }
+
+  .sub-head {
+    font-size: 200%;
+  }
+
+  .video-section{
+    padding: 100px 5% 100px 5%;
+  }
+}
