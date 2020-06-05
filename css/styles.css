@@ -52,7 +52,14 @@ q{
 }
 
 .navbar-toggler{
-  margin: 20px;
+  margin: 25px;
+  width: 90px !important;
+  height: 80px !important;
+}
+
+.navbar-toggler-icon{
+  width: 70px !important;
+  height: 60px !important;
 }
 
 /* HOME PAGE STYLES */
@@ -230,7 +237,7 @@ h3{
 
 
   .nav-item {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .main-head {
