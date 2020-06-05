@@ -10,6 +10,7 @@ text-align: center;
   font-size: 50px;
   font-weight: bold;
   padding-bottom: 80px;
+  font-family: 'Ubuntu', sans-serif;
 }
 q{
   font-size: 40px;
@@ -20,6 +21,7 @@ q{
 .about-para{
   text-align: center;
   text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .page-hr {
@@ -34,27 +36,24 @@ q{
 }
 /* NAVBAR SECTION STYLES */
 
-.navbar {
-  min-height: 80px;
-}
 
 
 .nav-item {
   margin-right: 50px;
+  font-size: 15px;
   text-align: left;
-  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
 
 .navbar-brand{
-  padding: 38px 12px;
-line-height: 80px;
-}
-.navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 23px;
-  padding: 9px 10px !important;
+  font-size: 1.6rem;
+      font-weight: 600;
 }
 
+.navbar-toggler{
+  margin: 20px;
+}
 
 /* HOME PAGE STYLES */
 
@@ -65,7 +64,7 @@ line-height: 80px;
 .main-head {
   font-size: 480%;
   font-weight: 700;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #000;
   text-align: center;
   padding-top: 100px;
@@ -163,7 +162,7 @@ line-height: 80px;
 .contact-head{
   text-align: center;
   font-size: 17px;
-  color: #fff;
+  color: #b1b493;
 }
 
 .contact-btn{
@@ -171,7 +170,7 @@ line-height: 80px;
   width: 180px;
   height: 58px;
   border-radius: 20px;
-  color: #fff;
+
 
 }
 
@@ -229,11 +228,9 @@ h3{
     padding: 100px 5% 100px 5%;
   }
 
-  .navbar-brand{
-    height: 80px;
-  }
+
   .nav-item {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .main-head {
@@ -243,14 +240,6 @@ h3{
   q{
     font-size: 60px;
   }
-}
 
 
-/* USED TO INCREASE THE NAVBAR SIZE IN MOBILE VIEW(CODE TAKEN FROM GOOGLE) */
-
-.navbar-nav > li > a {
-  /* (80px - line-height of 27px) / 2 = 26.5px */
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
-  line-height: 27px;
 }
