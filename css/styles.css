@@ -51,6 +51,10 @@ q{
   font-weight: 500;
 }
 
+.nav-item:hover{
+  color: #fff !important;
+}
+
 .brand{
   font-size: 1.6rem;
   font-weight: 600;
@@ -174,12 +178,12 @@ q{
 /* CONTACT SECTION STYLE */
 
 #contacts{
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .footer{
   width: 100%;
-  height: 430px;
+  height: 520px;
   background-color: #a6b1e1;
 }
 
@@ -190,7 +194,7 @@ q{
 }
 
 .contact-btn{
-  margin-top: 60px;
+  margin-top: 100px;
   width: 180px;
   height: 58px;
   border-radius: 20px;
@@ -200,16 +204,13 @@ q{
 
 }
 
-/* .contact-btn:hover{
-  background-color: #fff !important;
-} */
 
 .btn-text{
   color: #000;
   text-decoration: none;
   font-size: 20px;
-
 }
+
 .btn-text:hover{
   text-decoration: none;
   color: #000;
@@ -276,5 +277,18 @@ h3{
     font-size: 60px;
   }
 
+  .contact-btn{
+    width: 250px;
+    height: 90px;
+    margin-top: 50px;
+  }
+
+  .contact-head{
+    font-size: 25px;
+  }
+
+  .btn-text{
+    font-size: 30px;
+  }
 
 }
