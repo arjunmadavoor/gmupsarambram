@@ -1,6 +1,6 @@
 body{
 text-align: center;
-
+background-color: #fff;
 }
 
 .main-body{
@@ -23,6 +23,7 @@ q{
   text-align: center;
   text-align: justify;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
 }
 
 .page-hr {
@@ -37,9 +38,12 @@ q{
 }
 /* NAVBAR SECTION STYLES */
 
-
+.navbar{
+  background: #00bcd4;
+}
 
 .nav-item {
+  color: #000 !important;
   margin-right: 50px;
   font-size: 15px;
   text-align: left;
@@ -47,9 +51,16 @@ q{
   font-weight: 500;
 }
 
-.navbar-brand{
+.brand{
   font-size: 1.6rem;
-      font-weight: 600;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.brand:hover{
+  text-decoration: none;
+  color: blue;
 }
 
 .navbar-toggler{
@@ -62,6 +73,7 @@ q{
 .navbar-toggler-icon{
   width: 70px !important;
   height: 60px !important;
+  color: #000 !important;
 }
 
 /* HOME PAGE STYLES */
@@ -116,20 +128,20 @@ q{
   border-radius: 15px;
 }
 .row-one {
-  background-color: #cceabb;
+  background-color: #77d8d8;
 }
 .row-one:hover {
-  background-color: #a8df65;
+  background-color: #0779e4;
   text-decoration: none;
   color: #fff;
 }
 
 .row-two {
-  background-color: #fdcb9e;
+  background-color: #827397;
 }
 
 .row-two:hover {
-  background-color: #ff9a76;
+  background-color: #363062;
   text-decoration: none;
   color: #fff;
 }
@@ -167,14 +179,14 @@ q{
 
 .footer{
   width: 100%;
-  height: 420px;
-  background-color: #222831;
+  height: 430px;
+  background-color: #a6b1e1;
 }
 
 .contact-head{
   text-align: center;
-  font-size: 17px;
-  color: #b1b493;
+  font-size: 19px;
+  color: #000;
 }
 
 .contact-btn{
@@ -182,14 +194,21 @@ q{
   width: 180px;
   height: 58px;
   border-radius: 20px;
+  border-width: 2px !important;
+  border-color: #000 !important;
 
 
 }
 
+/* .contact-btn:hover{
+  background-color: #fff !important;
+} */
+
 .btn-text{
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 20px;
+
 }
 .btn-text:hover{
   text-decoration: none;
@@ -197,7 +216,7 @@ q{
 }
 
 .copy-right{
-  color: grey;
+  color: #222831;
 }
 /* VIDEOS PAGE STYLES AND OPTIONS */
 
@@ -226,7 +245,7 @@ h3{
 
 
 
-@media (max-width:993px) {
+@media (max-width:999px) {
 
 
   .main-head {
