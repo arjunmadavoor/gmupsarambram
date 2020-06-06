@@ -177,7 +177,7 @@ q{
 .carousel-control-prev-icon{
   width: 30px !important;
   height: 30px !important;
-  
+
 }
 
 .carousel-control-next-icon{
@@ -275,10 +275,11 @@ h3{
   text-align: center;
 }
 .std-head{
-  font-size: 45px;
+  font-size: 281.25%;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
+  padding-top: 100px;
 }
 
 
