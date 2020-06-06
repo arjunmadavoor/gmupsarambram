@@ -11,6 +11,7 @@ background-color: #fff;
   font-size: 50px;
   font-weight: bold;
   padding-bottom: 80px;
+  padding-top: 100px;
   font-family: 'Ubuntu', sans-serif;
 }
 q{
@@ -109,6 +110,8 @@ q{
   text-align: center;
   width: 70%;
   margin-top: 40px;
+  border: 6px solid #000;
+  
 }
 
 /* ONLINE CLASS PAGE STYLES */
@@ -159,17 +162,22 @@ q{
 /* ABOUT SECTION STYLES */
 
 #about{
-  padding-top: 130px;
+  padding-top: 160px;
   margin-bottom: 200px;
 }
 
 .hm-image{
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.hm-title{
+  font-size: 20px;
+}
+
 .about-row{
   padding: 10px 8.3% 10px 8.3%;
 }
@@ -249,6 +257,7 @@ h3{
 @media (max-width:999px) {
 
 
+
   .main-head {
     font-size: 400%;
   }
@@ -284,11 +293,30 @@ h3{
   }
 
   .contact-head{
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .btn-text{
     font-size: 30px;
+  }
+
+
+  .footer{
+    height: 550px;
+  }
+
+  .copy-right{
+    font-size: 18px;
+  }
+
+
+  .hm-image{
+    width: 250px;
+    height: 250px;
+  }
+
+  .hm-title{
+    font-size: 28px;
   }
 
 }
