@@ -163,7 +163,7 @@ q{
 /* GALLERY SECTION STYLES */
 
 #gallery{
-  padding: 90px 20% 100px 20%;
+  padding: 90px 25% 100px 25%;
 }
 
 .carousel-item{
@@ -173,6 +173,18 @@ q{
 .gallery-head{
   padding-bottom: 50px;
 }
+
+.carousel-control-prev-icon{
+  width: 30px !important;
+  height: 30px !important;
+  
+}
+
+.carousel-control-next-icon{
+  width: 30px !important;
+  height: 30px !important;
+}
+
 
 
 
@@ -278,6 +290,7 @@ h3{
   }
 
   .main-head {
+    margin-top: 90px;
     font-size: 400%;
   }
   .school-img{
@@ -297,9 +310,6 @@ h3{
     font-size: 50px;
   }
 
-  .main-head {
-    padding-top: 50px;
-  }
 
   q{
     font-size: 60px;
@@ -340,6 +350,17 @@ h3{
 
   .hm-title{
     font-size: 28px;
+  }
+
+  .carousel-control-prev-icon{
+    width: 40px !important;
+    height: 40px !important;
+
+  }
+
+  .carousel-control-next-icon{
+    width: 40px !important;
+    height: 40px !important;
   }
 
 }
