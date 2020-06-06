@@ -108,10 +108,15 @@ q{
 .school-img {
   border-radius: 15px;
   text-align: center;
-  width: 70%;
+  width: 100%;
   margin-top: 40px;
   border: 6px solid #000;
+}
 
+.logo-img{
+  text-align: center;
+  width: 15%;
+  margin: 100px;
 }
 
 /* ONLINE CLASS PAGE STYLES */
@@ -160,10 +165,41 @@ q{
 
 
 
+/* ONLINE CLASS - GMUPS SECTION */
+
+.school-cls-head{
+  padding-bottom: 100px;
+  padding-top: 220px;
+}
+
+.teachers-cls{
+  background-color: #827397;
+  display: block;
+  width: 500px;
+  height: 200px;
+  padding-top: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 6px solid #000;
+  color: #000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.teachers-cls:hover {
+  background-color: #363062;
+  text-decoration: none;
+  color: #fff;
+}
+
+
 /* GALLERY SECTION STYLES */
 
 #gallery{
-  padding: 90px 25% 100px 25%;
+  padding: 90px 22% 100px 22%;
 }
 
 .carousel-item{
@@ -309,6 +345,10 @@ h3{
 
   .nav-item {
     font-size: 50px;
+  }
+
+  .logo-img{
+    width: 25%;
   }
 
 
