@@ -1,26 +1,28 @@
-body{
-text-align: center;
-background-color: #fff;
+body {
+  text-align: center;
+  background-color: #fff;
 }
 
-.main-body{
+q {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  text-align: justify;
+}
+
+.main-body {
   text-align: center;
 }
 
-.section-head{
+.section-head {
   font-size: 50px;
   font-weight: bold;
   padding-bottom: 100px;
   padding-top: 100px;
   font-family: 'Ubuntu', sans-serif;
 }
-q{
-  font-size: 40px;
-  font-weight: 500;
-  text-align: center;
-  text-align: justify;
-}
-.about-para{
+
+.about-para {
   text-align: center;
   text-align: justify;
   font-family: 'Ubuntu', sans-serif;
@@ -34,12 +36,12 @@ q{
   border-width: 15px;
   border-color: #000;
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 130px;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
-/* NAVBAR SECTION STYLES */
 
-.navbar{
+/* NAVBAR SECTION STYLES */
+.navbar {
   background: #00bcd4;
 }
 
@@ -52,41 +54,38 @@ q{
   font-weight: 500;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   color: #fff !important;
 }
 
-.brand{
+.brand {
   font-size: 1.6rem;
   font-weight: 600;
   color: #000;
   text-decoration: none;
 }
 
-.brand:hover{
+.brand:hover {
   text-decoration: none;
   color: blue;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   margin: 25px;
   width: 90px !important;
   height: 80px !important;
   border: 0
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   width: 70px !important;
   height: 60px !important;
   color: #000 !important;
 }
 
 /* HOME PAGE STYLES */
-
-#home-page{
+#home-page {
   padding: 100px 7% 100px 7%;
-
-
 }
 
 .main-head {
@@ -98,13 +97,6 @@ q{
   padding-top: 50px;
 }
 
-.sub-head {
-  font-size: 25px;
-  font-weight: lighter;
-  font-family: sans-serif;
-  text-align: center;
-}
-
 .school-img {
   border-radius: 15px;
   text-align: center;
@@ -113,15 +105,14 @@ q{
   border: 6px solid #000;
 }
 
-.logo-img{
+.logo-img {
   text-align: center;
   width: 15%;
   margin: 100px;
 }
 
 /* ONLINE CLASS PAGE STYLES */
-
-#class-page{
+#class-page {
   padding: 100px 7% 100px 7%;
 }
 
@@ -139,9 +130,11 @@ q{
   margin-right: auto;
   border-radius: 15px;
 }
+
 .row-one {
   background-color: #77d8d8;
 }
+
 .row-one:hover {
   background-color: #0779e4;
   text-decoration: none;
@@ -158,21 +151,18 @@ q{
   color: #fff;
 }
 
-.items{
+.items {
   padding: 15px;
   text-align: center;
 }
 
-
-
 /* ONLINE CLASS - GMUPS SECTION */
-
-.school-cls-head{
+.school-cls-head {
   padding-bottom: 100px;
   padding-top: 220px;
 }
 
-.teachers-cls{
+.teachers-cls {
   background-color: #827397;
   display: block;
   width: 500px;
@@ -195,106 +185,122 @@ q{
   color: #fff;
 }
 
-
 /* GALLERY SECTION STYLES */
-
-#gallery{
+#gallery {
   padding: 90px 22% 100px 22%;
 }
 
-.carousel-item{
+.carousel-item {
   width: 100%;
 }
 
-.gallery-head{
+.gallery-head {
   padding-bottom: 50px;
 }
 
-.carousel-control-prev-icon{
-  width: 30px !important;
-  height: 30px !important;
-
-}
-
-.carousel-control-next-icon{
+.carousel-control-prev-icon {
   width: 30px !important;
   height: 30px !important;
 }
 
+.carousel-control-next-icon {
+  width: 30px !important;
+  height: 30px !important;
+}
 
+/* STAFF DETAILS AND TABLE SECTION STYLE */
+.staff-table-head {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  padding-top: 100px;
+  text-decoration: underline;
+  font-family: 'Ubuntu', sans-serif;
+}
 
+.table {
+  width: 90% !important;
+  background-color: #cff1ef;
+  border: 4px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: left;
+}
+
+td{
+  font-size: 20px;
+}
+
+.table-head {
+  font-size: 25px;
+}
 
 /* ABOUT SECTION STYLES */
 
-#about{
+#about {
   padding: 100px 7% 100px 7%;
   margin-bottom: 200px;
 }
 
-.hm-image{
+.hm-image {
   width: 230px;
   height: 230px;
   border-radius: 50%;
-
   margin-bottom: 10px;
 }
 
-.hm-title{
+.hm-title {
   font-size: 20px;
 }
 
-.about-row{
+.about-row {
   padding: 10px 8.3% 10px 8.3%;
 }
 
-
 /* CONTACT SECTION STYLE */
-
-#contacts{
+#contacts {
   padding-top: 200px;
 }
 
-.footer{
+.footer {
   width: 100%;
   height: 520px;
   background-color: #a6b1e1;
 }
 
-.contact-head{
+.contact-head {
   text-align: center;
   font-size: 19px;
   color: #000;
 }
 
-.contact-btn{
+.contact-btn {
   margin-top: 100px;
   width: 180px;
   height: 58px;
   border-radius: 20px;
   border-width: 2px !important;
   border-color: #000 !important;
-
-
 }
 
-
-.btn-text{
+.btn-text {
   color: #000;
   text-decoration: none;
   font-size: 20px;
 }
 
-.btn-text:hover{
+.btn-text:hover {
   text-decoration: none;
   color: #000;
 }
 
-.copy-right{
+.copy-right {
   color: #222831;
 }
-/* VIDEOS PAGE STYLES AND OPTIONS */
 
-h3{
+/* VIDEOS PAGE STYLES AND OPTIONS */
+h3 {
   font-size: 20px;
   font-weight: bolder;
   font-family: sans-serif;
@@ -303,14 +309,15 @@ h3{
   padding-top: 5px;
 }
 
-.video-section{
+.video-section {
   padding: 100px 20% 100px 20%;
 }
 
-.videos{
+.videos {
   text-align: center;
 }
-.std-head{
+
+.std-head {
   font-size: 281.25%;
   font-weight: bold;
   text-align: center;
@@ -321,8 +328,7 @@ h3{
 
 
 @media (max-width:999px) {
-
-  #gallery{
+  #gallery {
     padding: 200px 5% 200px 5%;
   }
 
@@ -330,78 +336,77 @@ h3{
     margin-top: 90px;
     font-size: 400%;
   }
-  .school-img{
+
+  .school-img {
     width: 100%;
   }
 
-  .sub-head {
-    font-size: 200%;
-  }
-
-  .video-section{
+  .video-section {
     padding: 100px 5% 100px 5%;
   }
-
 
   .nav-item {
     font-size: 50px;
   }
 
-  .logo-img{
+  .logo-img {
     width: 25%;
   }
 
-
-  q{
+  q {
     font-size: 60px;
   }
 
-  .contact-btn{
+  .table-head {
+    font-size: 34px;
+  }
+
+  .table-data {
+    font-size: 30px;
+  }
+
+  .contact-btn {
     width: 250px;
     height: 90px;
     margin-top: 50px;
   }
 
-  .contact-head{
+  .contact-head {
     font-size: 28px;
   }
 
-  .btn-text{
+  .btn-text {
     font-size: 30px;
   }
 
-  .brand{
+  .brand {
     font-size: 1.6rem;
   }
 
-
-  .footer{
+  .footer {
     height: 550px;
   }
 
-  .copy-right{
+  .copy-right {
     font-size: 18px;
   }
 
-
-  .hm-image{
+  .hm-image {
     width: 250px;
     height: 250px;
   }
 
-  .hm-title{
+  .hm-title {
     font-size: 28px;
   }
 
-  .carousel-control-prev-icon{
-    width: 40px !important;
-    height: 40px !important;
-
-  }
-
-  .carousel-control-next-icon{
+  .carousel-control-prev-icon {
     width: 40px !important;
     height: 40px !important;
   }
 
+  .carousel-control-next-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
 }
