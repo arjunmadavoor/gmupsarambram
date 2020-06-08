@@ -325,6 +325,23 @@ h3 {
   padding-top: 100px;
 }
 
+.subject-div{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.subject-link{
+  padding: 100px 20% 100px 20%;
+}
+
+.subject-head{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 
 
 @media (max-width:999px) {
