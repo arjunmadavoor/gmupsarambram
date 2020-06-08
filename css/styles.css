@@ -142,7 +142,7 @@ q {
 }
 
 .row-two {
-  background-color: #827397;
+  background-color: #a6b1e1;
 }
 
 .row-two:hover {
@@ -163,7 +163,7 @@ q {
 }
 
 .teachers-cls {
-  background-color: #827397;
+  background-color: #a6b1e1;
   display: block;
   width: 500px;
   height: 200px;
@@ -339,6 +339,14 @@ h3 {
 
   .school-img {
     width: 100%;
+  }
+
+  .row-one, .row-two {
+    font-size: 35px;
+  }
+
+  .teachers-cls {
+    font-size: 36px;
   }
 
   .video-section {
