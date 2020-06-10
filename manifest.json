@@ -1,5 +1,5 @@
 {
- "name": "App",
+ "name": "GMUPS ARAMBRAM",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +37,9 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+],
+ "display": "fullscreen",
+ "theme_color": "#B12A34",
+ "background_color": "#B12A34"
+
 }
