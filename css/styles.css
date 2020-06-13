@@ -200,18 +200,17 @@ q {
 .teachers-cls {
   background-color: #a6b1e1;
   display: block;
-  width: 500px;
   height: 200px;
   padding-top: 70px;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
   border: 6px solid #000;
-  color: #000;
-  text-align: center;
+text-align: center;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
+  color: #000;
 }
 
 .teachers-cls:hover {
