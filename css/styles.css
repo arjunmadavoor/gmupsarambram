@@ -116,11 +116,34 @@ q {
 }
 
 .live-text {
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: normal;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: brown;
+}
+
+.download-btn{
+  width: 250px;
+  height: 80px;
+  background: #77d8d8 !important;
+  margin: 40px;
+  border-radius: 15px !important;
+}
+.download-btn:hover{
+  background: #0779e4 !important;
+}
+
+.download-link{
+  dext-decoration:none !important;
+  color: #000 !important;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.download-link:hover{
+  text-decoration: none;
+  color: #fff !important;
 }
 
 /* ONLINE CLASS PAGE STYLES */
