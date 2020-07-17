@@ -95,6 +95,7 @@ q {
   color: #000;
   text-align: center;
   padding-top: 50px;
+  animation: h1 2s;
 }
 
 .school-img {
@@ -109,6 +110,7 @@ q {
   text-align: center;
   width: 15%;
   margin: 100px;
+  animation: logo 2s;
 }
 
 .live-update {
@@ -404,6 +406,36 @@ h3 {
   background-color: #a6b1e1 !important;
   color: #000 !important;
 }
+
+/* home text and logo animation */
+@keyframes logo{
+
+    0%{
+        opacity: 0.1;
+        transform: translateY(-200px);
+    }
+    90%{
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+       transform: translate(0);
+    }
+}
+@keyframes h1{
+     0%{
+         opacity: 0.1;
+         transform: translateX(-400px);
+     }
+     90%{
+         transform: translateX(10px);
+     }
+     100%{
+         opacity: 1;
+        transform: translate(0);
+     }
+}
+
 
 @media (max-width:999px) {
   #gallery {
