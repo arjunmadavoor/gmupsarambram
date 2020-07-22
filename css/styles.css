@@ -140,12 +140,11 @@ q {
   dext-decoration:none !important;
   color: #000 !important;
   font-weight: lighter;
-  font-size: 17px;
+  font-size: 24px;
   font-family: 'Ubuntu', sans-serif;
 }
 .download-link:hover{
   text-decoration: none;
-  color: #fff !important;
 }
 
 /* ONLINE CLASS PAGE STYLES */
